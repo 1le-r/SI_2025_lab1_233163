@@ -1,0 +1,45 @@
+mkdir SI_2025_lab1_ИНДЕКС
+cd SI_2025_lab1_ИНДЕКС
+git init
+
+
+git remote add origin https://github.com/твојкорисник/SI_2025_lab1_ИНДЕКС.git
+
+
+echo "Ilija RIstov - 233163" > README.md
+git add README.md
+git commit -m "Initial commit"
+
+
+git add SI2025Lab1Main.java
+git commit -m "Add starter code"
+
+
+git push -u origin master
+
+
+git fetch origin
+
+
+git add .
+git commit -m "Implement feature: feature"
+
+
+git push
+
+
+git checkout master
+git merge 
+
+
+git push origin master
+
+
+git log --oneline --graph --all > logs.txt
+
+
+git add logs.txt 233163.txt
+git commit -m "Final commit"
+
+
+git push origin master
